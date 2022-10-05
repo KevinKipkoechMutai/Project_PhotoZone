@@ -13,7 +13,14 @@ function App() {
   const [photoCollection, setPhotoCollection] = React.useState([]);
   const [checkPhotoCollection, setCheckPhotoCollection] = React.useState(false);
 
-  //
+  //setting effects
+  React.useEffect(() => {
+    fetch("http://localhost:3000/photos")
+      .then(res => res.json())
+      .then(photos => {
+        setPhotoCollection(photos);
+      })
+  }, [checkPhotoCollection])
 
   return (
     <div>

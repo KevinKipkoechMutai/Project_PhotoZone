@@ -20,7 +20,7 @@ function Card(props) {
             <p className='bold'>{props.item.whereTaken}</p>
             
             <div className='buttons'>
-                <button className='bold button'>Purchase</button>
+                <button className='bold button'>Delete</button>
                 <button className='bold button'>Add to Favorites</button>
             </div>
         </div>
