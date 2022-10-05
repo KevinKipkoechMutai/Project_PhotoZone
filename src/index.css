@@ -14,6 +14,30 @@ code {
     monospace;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  border: 0;
+}
+
+header h1 {
+  padding-left: 30px;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 2px 30px 0 0;
+}
+
+header nav ul li {
+  justify-content: space-around;
+  padding: 20px;
+}
+
 section {
   padding: 30px;
   margin: auto;
@@ -22,15 +46,87 @@ section {
 .hero-section {
   display: flex;
   flex-direction: column;
-  
+  background: radial-gradient(circle, #dbd1d5 0%, #ced9b5 100%);
   align-items: center;
 }
 
 .hero-header {
   margin-bottom: 30px;
   font-size: xx-large;
+  font-weight: bolder;
 }
 
 .hero-text {
   margin-top: 0;
+  font-size: x-large;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  gap: 25px;
+  margin: auto;
+  margin-left: 100px;
+}
+
+.card {
+  width: 400px;
+  font-size: 13px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  background-color: #6c615b;
+  border-radius: 10px;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.buttons button {
+  background-color: #ced9b5;
+  height: 40px;
+  width: 100px;
+  border-radius: 4px;
+}
+
+.larger {
+  font-size: larger;
+}
+
+
+
+.card-statistics {
+  display: flex;
+  align-items: center;
+}
+
+.card-badge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: whitesmoke;
+  padding: 5px 6px;
+  border-radius: 3px;
+  font-weight: bold;
 }

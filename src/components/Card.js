@@ -12,12 +12,17 @@ function Card(props) {
         <div className='card'>
             {displayBadge && <div className='card-badge'>{displayBadge}</div>}
             <img src={props.item.imgSrc} className="card-image"/>
+            <h1 className='card-title'>{props.item.title}</h1>
             <div className='card-statistics'>
-                <p>Rating: {props.item.statistics.rating}</p>
-                <span>({props.item.statistics.reviews} reviews)</span>
+                <p className='larger'>Rating: {props.item.statistics.rating}</p>
+                <span className='bold larger'>({props.item.statistics.reviews} reviews)</span>
             </div>
-            <p>{props.item.whereTaken}</p>
-            <p className='card-title'>{props.item.title}</p>
+            <p className='bold'>{props.item.whereTaken}</p>
+            
+            <div className='buttons'>
+                <button className='bold'>Purchase</button>
+                <button className='bold'>Add to Favorites</button>
+            </div>
         </div>
     )
 }

@@ -53,5 +53,17 @@ export default [
             reviews: 34
         },
         stockNumber: 0
+    },
+    {
+        id: 6,
+        title: "City Sky",
+        whereTaken: "Manhattan",
+        imgSrc: "https://cdn.pixabay.com/photo/2022/09/16/17/07/city-7459162_960_720.jpg",
+        statistics: {
+            rating: 5.0,
+            reviews: 60
+        },
+        stockNumber: 4
     }
+    
 ]
