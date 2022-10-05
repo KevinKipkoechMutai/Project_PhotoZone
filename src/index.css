@@ -68,6 +68,7 @@ section {
   gap: 25px;
   margin: auto;
   margin-left: 100px;
+  border-radius: 5px;
 }
 
 .card {
@@ -103,11 +104,16 @@ section {
   border-radius: 3px;
 }
 
-.buttons button {
-  background-color: #ced9b5;
+.button {
+  background-color: #e57c39;
   height: 40px;
   width: 100px;
-  border-radius: 4px;
+  border-radius: 10px;
+}
+
+.box-field {
+  border-radius: 5px;
+  border-bottom: 10px;
 }
 
 .larger {
@@ -136,4 +142,13 @@ section {
   flex-direction: column;
   align-items: center;
   overflow: auto;
+  background-color: #6c615b;
 }
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-around;
+}
+

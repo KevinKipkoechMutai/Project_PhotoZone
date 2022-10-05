@@ -1,32 +1,26 @@
 //import logo from './logo.svg';
 //import './App.css';
 import React from "react";
-import Card from './components/Card';
+//import Card from './components/Card';
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
-import data from "./components/data";
+//import data from "./components/data";
 import Footer from "./components/Footer"
+import PhotosPage from "./components/PhotosPage";
 
 
 function App() {
-  //displaying card information
-  const cards = data.map((item) => {
-    return (
-      <Card 
-        key={item.id}
-        item={item}
-      />
-    )
-  })
+  const [photoCollection, setPhotoCollection] = React.useState([]);
+  const [checkPhotoCollection, setCheckPhotoCollection] = React.useState(false);
+
+  //
 
   return (
     <div>
       <NavBar />
       <HeroSection />
-      <section className="cards-section">
-        {cards}
-      </section>
-      
+      <PhotosPage />
+      <Footer />
     </div>
   );
 }
