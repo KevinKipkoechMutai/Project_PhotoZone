@@ -4,7 +4,8 @@ import React from "react";
 import Card from './components/Card';
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
-import data from "./components/data"
+import data from "./components/data";
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <section className="cards-section">
         {cards}
       </section>
+      
     </div>
   );
 }

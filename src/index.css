@@ -130,3 +130,10 @@ section {
   border-radius: 3px;
   font-weight: bold;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
