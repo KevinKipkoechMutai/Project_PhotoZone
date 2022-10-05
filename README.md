@@ -35,9 +35,14 @@ To install and run this project, you need:
 -node installed on computer
 ## **Installation Process**
 1. Clone the project onto your computer using the git clone command. Remember to use my repository address as the source. 
-2. After ensuring you have all the html, js, and css files, navigate to the root folder and find the files. 
-3. Copy the path of the index.html file. Paste and load it on the browser to view my sample webpage. 
-5. The website may fail to display contents earlier on depending on internet space and ability to access online resources such as the font-awesome library and the API. If that happens, please give it a few minutes. 
+2. After ensuring you have all the files, open the directory in VSCode and run these commands:
+
+    npm install
+
+    npm start
+
+
+3. The website may fail to display contents earlier on depending on internet space and ability to access online resources such as the font-awesome library and the API. If that happens, please give it a few minutes. 
 ## **Technology Used**
 -HTML: Used to construct the page's structure and add content.
 
