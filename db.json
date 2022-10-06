@@ -32,17 +32,6 @@
         "reviews": 34
       },
       "stockNumber": 8
-    },
-    {
-      "id": 5,
-      "title": "Work",
-      "whereTaken": "Office",
-      "imgSrc": "https://cdn.pixabay.com/photo/2015/05/31/10/55/man-791049_960_720.jpg",
-      "statistics": {
-        "rating": 4.9,
-        "reviews": 34
-      },
-      "stockNumber": 0
     }
   ]
 }

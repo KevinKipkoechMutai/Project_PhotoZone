@@ -10,14 +10,7 @@ function Card({photo, handlePhotos, dischargePhoto}) {
     // }
 
     return (
-        <div className='card'
-            onClick={
-                (e) => {
-                    e.stopPropagation()
-                    handlePhotos(photo)
-                }
-            }
-        >
+        <div className='card'>
             {/*displayBadge && <div className='card-badge'>{displayBadge}</div>*/}
             <img src={photo.imgSrc} className="card-image" alt={photo.title}/>
             <h1 className='card-title'>{photo.title}</h1>
@@ -34,7 +27,12 @@ function Card({photo, handlePhotos, dischargePhoto}) {
                         dischargePhoto(photo)
                     } }
                 >Delete</button>
-                <button className='bold button'>Add to Favorites</button>
+                <button className='bold button' onClick={
+                (e) => {
+                    e.stopPropagation()
+                    handlePhotos(photo)
+                }
+            }>Add to Favorites</button>
             </div>
         </div>
     )

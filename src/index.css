@@ -48,6 +48,7 @@ section {
   flex-direction: column;
   background: radial-gradient(circle, #dbd1d5 0%, #ced9b5 100%);
   align-items: center;
+  justify-content: center;
 }
 
 .hero-header {
@@ -63,11 +64,12 @@ section {
 
 .cards-section {
   display: flex;
-  flex-wrap: wrap;
-  overflow: auto;
+  
+  flex-direction: row;
+  
   gap: 25px;
   margin: auto;
-  margin-left: 100px;
+  justify-content: center;
   border-radius: 5px;
 }
 
@@ -152,3 +154,8 @@ section {
   justify-content: space-around;
 }
 
+.image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
