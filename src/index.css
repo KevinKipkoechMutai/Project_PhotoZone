@@ -154,8 +154,6 @@ section {
   justify-content: space-around;
 }
 
-.image-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.section-title {
+  text-align: center;
 }

@@ -4,8 +4,8 @@ import Card from './Card';
 function Favorites({photoFavBox, removePhoto, dischargePhoto}) {
     return (
         <div>
-            <h1>My Favorites</h1>
-            <div className='card-section'>
+            <h1 className='section-title'>My Favorites</h1>
+            <div className='cards-section'>
                 {
                     photoFavBox.map((photo) => {
                         return (

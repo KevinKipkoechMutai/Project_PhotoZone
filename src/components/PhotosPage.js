@@ -37,22 +37,22 @@ function PhotosPage({photoCollection, setPhotoCollection, setCheckPhotoCollectio
     }
 
     return (
-        <section className='image-section'>
-            <div className='cards-section'>
+        <section>
+            
             <PhotoStash 
                 photoCollection = {photoCollection}
                 addPhoto = {addPhoto}
                 dischargePhoto = {dischargePhoto}
             />
-            </div>
+            
             <hr />
-            <div className='cards-section'>
+            
             <Favorites 
                 photoFavBox = {photoFavBox}
                 removePhoto = {removePhoto}
                 dischargePhoto = {dischargePhoto}
             />
-            </div>
+            
             
         </section>
     )
