@@ -14,11 +14,40 @@ function PhotosPage({photoCollection, setPhotoCollection, setCheckPhotoCollectio
         }
     }
 
+    //removing a photo from the DOM
+    const removePhoto = (photo) => {
+        const photoInBox = photoFavBox.find(item => {return item.id === photo.id});
+        if (photoInBox) {
+            setPhotoFavBox(photoFavBox.filter(removedPhoto => removedPhoto.id !== photo.id))
+        }
+    }
+
+    //deleting a photo from the API
+    const dischargePhoto = (photo) => {
+        setPhotoCollection(photoCollection.filter(item => item.id !== photo.id));
+        removePhoto(photo)
+        fetch(`http://localhost:3000/photos/${photo.id}`, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        },);
+        setCheckPhotoCollection(true)
+    }
+
     return (
         <section className='cards-section'>
-            <Card />
+            <Card 
+                photoCollection = {photoCollection}
+                addPhoto = {addPhoto}
+                dischargePhoto = {dischargePhoto}
+            />
             <hr />
-            <Favorites />
+            <Favorites 
+                photoFavBox = {photoFavBox}
+                removePhoto = {removePhoto}
+                dischargePhoto = {dischargePhoto}
+            />
         </section>
     )
 }
