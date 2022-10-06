@@ -19,7 +19,7 @@ function Card({photo, handlePhotos, dischargePhoto}) {
             }
         >
             {/*displayBadge && <div className='card-badge'>{displayBadge}</div>*/}
-            <img src={photos.imgSrc} className="card-image" alt={photo.title}/>
+            <img src={photo.imgSrc} className="card-image" alt={photo.title}/>
             <h1 className='card-title'>{photo.title}</h1>
             <div className='card-statistics'>
                 <p className='larger'>Rating: {photo.statistics.rating}</p>

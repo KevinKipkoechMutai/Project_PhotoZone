@@ -1,6 +1,7 @@
 import React from 'react';
-import Card from './Card';
+//import Card from './Card';
 import Favorites from './Favorites';
+import PhotoStash from './PhotoStash';
 
 
 function PhotosPage({photoCollection, setPhotoCollection, setCheckPhotoCollection}) {
@@ -37,7 +38,7 @@ function PhotosPage({photoCollection, setPhotoCollection, setCheckPhotoCollectio
 
     return (
         <section className='cards-section'>
-            <Card 
+            <PhotoStash 
                 photoCollection = {photoCollection}
                 addPhoto = {addPhoto}
                 dischargePhoto = {dischargePhoto}

@@ -2,11 +2,12 @@
 //import './App.css';
 import React from "react";
 //import Card from './components/Card';
-import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
+import HeroSection from "./components/HeroSection";
+import PhotosPage from "./components/PhotosPage";
 //import data from "./components/data";
 import Footer from "./components/Footer"
-import PhotosPage from "./components/PhotosPage";
+
 
 
 function App() {
@@ -26,7 +27,11 @@ function App() {
     <div>
       <NavBar />
       <HeroSection />
-      <PhotosPage />
+      <PhotosPage 
+        photoCollection={photoCollection}
+        setPhotoCollection={setPhotoCollection}
+        setCheckPhotoCollection={setCheckPhotoCollection}
+      />
       <Footer />
     </div>
   );
