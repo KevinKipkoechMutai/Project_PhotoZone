@@ -8,7 +8,7 @@ function NavBar() {
             <header>
             <h1>PhotoZone</h1>
             <nav>
-                <ul className='bold'>
+                <ul className='bold nav-links'>
                     <li>
                         <Link to='#favorites' smooth>
                             My Favorites

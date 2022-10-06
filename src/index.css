@@ -39,6 +39,10 @@ header nav ul li {
   text-decoration: none;
 }
 
+.nav-links {
+  text-decoration: none;
+}
+
 section {
   padding: 30px;
   margin: auto;
