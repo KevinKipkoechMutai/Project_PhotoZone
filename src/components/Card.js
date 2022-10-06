@@ -23,7 +23,7 @@ function Card({photo, handlePhotos, dischargePhoto}) {
                 <p className='larger intext'>Rating: {photo.statistics.rating}</p>
                 <span className='bold larger intext'>({photo.statistics.reviews} reviews)</span>
             </div>
-            <p className='bold'>{photo.whereTaken}</p>
+            <p className='bold intext'>{photo.whereTaken}</p>
             
             <div className='buttons'>
                 <button className='bold button'
