@@ -18,10 +18,10 @@ function Card({photo, handlePhotos, dischargePhoto}) {
         <div className='card'>
             {displayBadge && <div className='card-badge'>{displayBadge}</div>}
             <img src={photo.imgSrc} className="card-image" alt={photo.title}/>
-            <h1 className='card-title'>{photo.title}</h1>
+            <h1 className='card-title intext'>{photo.title}</h1>
             <div className='card-statistics'>
-                <p className='larger'>Rating: {photo.statistics.rating}</p>
-                <span className='bold larger'>({photo.statistics.reviews} reviews)</span>
+                <p className='larger intext'>Rating: {photo.statistics.rating}</p>
+                <span className='bold larger intext'>({photo.statistics.reviews} reviews)</span>
             </div>
             <p className='bold'>{photo.whereTaken}</p>
             

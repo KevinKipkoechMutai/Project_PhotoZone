@@ -87,6 +87,9 @@ section {
   flex: 0 0 auto;
   background-color: #6c615b;
   border-radius: 10px;
+}
+
+.intext {
   padding-left: 10px;
 }
 
