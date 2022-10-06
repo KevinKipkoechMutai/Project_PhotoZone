@@ -1,6 +1,17 @@
 {
   "photos": [
     {
+      "id": 1,
+      "title": "Gothenburg Port",
+      "whereTaken": "Gothenburg",
+      "imgSrc": "https://cdn.pixabay.com/photo/2022/08/03/08/11/little-boom-7362108_960_720.jpg",
+      "statistics": {
+          "rating": 4.9,
+          "reviews": 34
+      },
+      "stockNumber": 0
+  },
+    {
       "id": 2,
       "title": "Woman-Winter",
       "whereTaken": "Swedish Countryside",
@@ -24,6 +35,39 @@
     },
     {
       "id": 4,
+      "title": "Gothenburg Port",
+      "whereTaken": "Gothenburg",
+      "imgSrc": "https://cdn.pixabay.com/photo/2022/08/03/08/11/little-boom-7362108_960_720.jpg",
+      "statistics": {
+        "rating": 4.9,
+        "reviews": 34
+      },
+      "stockNumber": 8
+    },
+    {
+      "id": 5,
+      "title": "Gothenburg Port",
+      "whereTaken": "Gothenburg",
+      "imgSrc": "https://cdn.pixabay.com/photo/2022/08/03/08/11/little-boom-7362108_960_720.jpg",
+      "statistics": {
+        "rating": 4.9,
+        "reviews": 34
+      },
+      "stockNumber": 8
+    },
+    {
+      "id": 6,
+      "title": "Gothenburg Port",
+      "whereTaken": "Gothenburg",
+      "imgSrc": "https://cdn.pixabay.com/photo/2022/08/03/08/11/little-boom-7362108_960_720.jpg",
+      "statistics": {
+        "rating": 4.9,
+        "reviews": 34
+      },
+      "stockNumber": 8
+    },
+    {
+      "id": 7,
       "title": "Gothenburg Port",
       "whereTaken": "Gothenburg",
       "imgSrc": "https://cdn.pixabay.com/photo/2022/08/03/08/11/little-boom-7362108_960_720.jpg",
