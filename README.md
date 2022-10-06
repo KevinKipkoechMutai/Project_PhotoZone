@@ -35,9 +35,11 @@ To install and run this project, you need:
 -node installed on computer
 ## **Installation Process**
 1. Clone the project onto your computer using the git clone command. Remember to use my repository address as the source. 
-2. After ensuring you have all the files, open the directory in VSCode and run these commands:
+2. Navigate to the project folder and run these commands:
 
     npm install
+
+    json-server --watch db.json
 
     npm start
 
