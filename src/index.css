@@ -36,6 +36,7 @@ header nav ul{
 header nav ul li {
   justify-content: space-around;
   padding: 20px;
+  text-decoration: none;
 }
 
 section {

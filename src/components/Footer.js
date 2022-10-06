@@ -1,9 +1,13 @@
 import React from 'react';
 
 function Footer() {
+    function handleSubmit() {
+        alert("Thank you for reaching out to us!")
+    }
+
     return (
             <div className='footer' id='footer'>
-                <form>
+                <form onSubmit={handleSubmit}>
                 <h2>Contact Us:</h2>
                 <div className='input-fields'>
                     <label htmlFor='email'>Email</label>
