@@ -66,4 +66,4 @@ MIT License Copyright (c) 2022 Kevin Kipkoech
 
  ## **Page Screenshot**
 
- ![screenshot of the site]({pending} "mealtime page")
+ ![screenshot of the site](./Page_Capture.png " page")
