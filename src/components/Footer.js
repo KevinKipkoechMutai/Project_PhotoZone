@@ -10,7 +10,7 @@ function Footer() {
                     <input className='box-field' id='email' type="email"/>
                     <label htmlFor='name'>Name</label>
                     <input className='box-field' id='name' type="text"/>
-                    <labe htmlFor="text-area">Comments:</labe>
+                    <label htmlFor="text-area">Comments:</label>
                     <textarea className='box-field' id='text-area' type="text"></textarea>
                     <button className='button'>Submit</button>
                 </div>
