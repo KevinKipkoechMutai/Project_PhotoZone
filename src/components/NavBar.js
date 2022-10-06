@@ -9,14 +9,21 @@ function NavBar() {
             <h1>PhotoZone</h1>
             <nav>
                 <ul className='bold'>
-                    <li>Home</li>
                     <li>
-                        <Link to='favorites' smooth>
+                        <Link to='#favorites' smooth>
                             My Favorites
                         </Link>
                     </li>
-                    <li>Latest News</li>
-                    <li>Contacts</li>
+                    <li>
+                        <Link to="#photo-collection">
+                            All Photo Collections
+                        </Link> 
+                    </li>
+                    <li>
+                        <Link to="#footer">
+                            Contact Us
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </header>

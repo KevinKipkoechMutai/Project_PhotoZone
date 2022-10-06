@@ -4,7 +4,7 @@ import Card from './Card';
 function PhotoStash({addPhoto, photoCollection, dischargePhoto}) {
     return (
         <div>
-            <h1 className='section-title'>Collection of all Photos</h1>
+            <h1 className='section-title' id='photo-collection'>Collection of all Photos</h1>
             <div className='cards-section'>
                 
                 {

@@ -2,16 +2,21 @@ import React from 'react'
 
 function Card({photo, handlePhotos, dischargePhoto}) {
    
-    // let displayBadge;
-    // if (photos.stockNumber === 0) {
-    //     displayBadge= "NOT AVAILABLE"
-    // } else {
-    //     displayBadge= "AVAILABLE"
-    // }
+    let displayBadge;
+    if (photo.stockNumber === 0) {
+        displayBadge= "NOT AVAILABLE"
+    } else {
+        displayBadge= "AVAILABLE"
+    }
+
+    function handleClickFav(e) {
+        e.stopPropagation();
+        handlePhotos(photo)
+    }
 
     return (
         <div className='card'>
-            {/*displayBadge && <div className='card-badge'>{displayBadge}</div>*/}
+            {displayBadge && <div className='card-badge'>{displayBadge}</div>}
             <img src={photo.imgSrc} className="card-image" alt={photo.title}/>
             <h1 className='card-title'>{photo.title}</h1>
             <div className='card-statistics'>
@@ -27,12 +32,7 @@ function Card({photo, handlePhotos, dischargePhoto}) {
                         dischargePhoto(photo)
                     } }
                 >Delete</button>
-                <button className='bold button' onClick={
-                (e) => {
-                    e.stopPropagation()
-                    handlePhotos(photo)
-                }
-            }>Add to Favorites</button>
+                <button className='bold button' onClick={handleClickFav}>Add to Favorites</button>
             </div>
         </div>
     )

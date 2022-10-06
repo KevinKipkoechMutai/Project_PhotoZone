@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer() {
     return (
-            <div className='footer'>
+            <div className='footer' id='footer'>
                 <form>
-                <h2>Have some questions? Reach out to us!</h2>
+                <h2>Contact Us:</h2>
                 <div className='input-fields'>
                     <label htmlFor='email'>Email</label>
                     <input className='box-field' id='email' type="email"/>
