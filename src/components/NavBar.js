@@ -15,12 +15,12 @@ function NavBar() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="#photo-collection">
+                        <Link to="#photo-collection" smooth>
                             All Photo Collections
                         </Link> 
                     </li>
                     <li>
-                        <Link to="#footer">
+                        <Link to="#footer" smooth>
                             Contact Us
                         </Link>
                     </li>
