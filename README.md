@@ -25,6 +25,16 @@ By Kevin Kipkoech
 [Author Contact Info](#authorcontactinfo)
 ## **Description**
 This website was developed using React.js. It fetches photos from a local API (adopted from the UnSplash API) and renders them in the DOM.Several click actions can be carried out on each photo element.  
+
+## **Key Functionalities of the WebApp**
+-Adding an image to favorites. This will redeploy it to the favorites section.
+
+-Deleting an image from the DOM. This will also send a DELETE Request to the Json-Server and delete it from the database. 
+
+-Automatically scroll to the desired section on the page. This is achieved through the use of the BrowserRouter and Hash Links. 
+
+-Submit a form. A submit action will trigger an alert in the DOM. 
+
 ## **Installation Requirements**
 To install and run this project, you need:
 
