@@ -27,7 +27,7 @@ function PhotosPage({photoCollection, setPhotoCollection, setCheckPhotoCollectio
     const dischargePhoto = (photo) => {
         setPhotoCollection(photoCollection.filter(item => item.id !== photo.id));
         removePhoto(photo)
-        fetch(`http://localhost:3000/photos/${photo.id}`, {
+        fetch(`https://my-json-server.typicode.com/KevinKipkoechMutai/PhotoZone_Backend/photos/${photo.id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",

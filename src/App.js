@@ -16,7 +16,7 @@ function App() {
 
   //setting effects
   React.useEffect(() => {
-    fetch("http://localhost:3000/photos")
+    fetch("https://my-json-server.typicode.com/KevinKipkoechMutai/PhotoZone_Backend/photos")
       .then(res => res.json())
       .then(photos => {
         setPhotoCollection(photos);
