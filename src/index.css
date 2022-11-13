@@ -166,3 +166,8 @@ section {
 .section-title {
   text-align: center;
 }
+
+.links {
+  text-decoration: none;
+  color: #000000;
+}
