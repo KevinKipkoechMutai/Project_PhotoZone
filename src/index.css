@@ -166,3 +166,8 @@ section {
 .section-title {
   text-align: center;
 }
+
+.nav-bar-links {
+  text-decoration: none;
+  color: black;
+}
