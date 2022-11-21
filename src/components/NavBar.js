@@ -10,17 +10,17 @@ function NavBar() {
             <nav>
                 <ul className='bold nav-links'>
                     <li>
-                        <Link to='#favorites' smooth>
+                        <Link to='#favorites' smooth className="nav-bar-links">
                             My Favorites
                         </Link>
                     </li>
                     <li>
-                        <Link to="#photo-collection" smooth>
+                        <Link to="#photo-collection" smooth className="nav-bar-links">
                             All Photo Collections
                         </Link> 
                     </li>
                     <li>
-                        <Link to="#footer" smooth>
+                        <Link to="#footer" smooth className="nav-bar-links">
                             Contact Us
                         </Link>
                     </li>
