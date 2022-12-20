@@ -154,6 +154,7 @@ section {
   align-items: center;
   overflow: auto;
   background-color: #6c615b;
+  gap: 10px;
 }
 
 .input-fields {
@@ -161,6 +162,7 @@ section {
   flex-direction: column;
   
   justify-content: space-around;
+  gap: 10px;
 }
 
 .section-title {
